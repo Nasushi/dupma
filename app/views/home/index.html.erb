@@ -1,0 +1,13 @@
+<h1>Home#index</h1>
+Wie ist die Lösung?
+<%= "#{@aufgabe.op1} #{@aufgabe.function} #{@aufgabe.op2}" %>
+<br>
+<%= @richtig_falsch %>
+<form method="get">
+	<input type="text" name="eingabe">
+	<input type="hidden" name="id" value="<%= @aufgabe.id %>">
+	<button type="submit">Abschicken</button>
+</form>
+<a href="/home/index">Neue Aufgabe</a>
+<br>
+<a href="/home/about">About Seite</a>

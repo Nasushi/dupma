@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  op1: 1.5
+  op2: 1.5
+  function: MyString
+  ergebnis: 1.5
+
+two:
+  op1: 1.5
+  op2: 1.5
+  function: MyString
+  ergebnis: 1.5
